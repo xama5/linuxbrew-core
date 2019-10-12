@@ -43,7 +43,7 @@ jobs:
           ANALYTICS_JSON_KEY: ${{ secrets.ANALYTICS_JSON_KEY }}
 
   generate-linux:
-    if: github.repository == 'Homebrew/homebrew-core'
+    if: github.repository == 'Homebrew/linuxbrew-core'
     runs-on: ubuntu-latest
     container: homebrew/brew:latest
 
