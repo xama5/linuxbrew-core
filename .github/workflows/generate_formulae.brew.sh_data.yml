@@ -3,7 +3,7 @@ name: Generate formulae.brew.sh data.
 on:
   push:
     branches:
-      - master
+      - linux_formula_generation_github_action
 
 jobs:
   generate:
