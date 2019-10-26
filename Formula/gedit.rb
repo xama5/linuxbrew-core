@@ -27,7 +27,7 @@ class Gedit < Formula
   depends_on "gspell"
   depends_on "gtk+3"
   depends_on "gtk-mac-integration" if OS.mac?
-  depends_on "gtksourceview3"
+  depends_on "gtksourceview4"
   depends_on "libpeas"
   depends_on "libsoup"
   depends_on "libxml2"
